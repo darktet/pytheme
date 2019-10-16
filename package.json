@@ -4,7 +4,7 @@
     "publisher": "pytheme",
     "description": "python theme color for vscode",
     "icon": "images/kcc.jpg",
-    "version": "0.1.6",
+    "version": "0.1.8",
     "engines": {
         "vscode": "^1.35.0"
     },
