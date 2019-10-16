@@ -1,0 +1,23 @@
+{
+    "name": "pytheme",
+    "displayName": "Pytheme",
+    "publisher": "pytheme",
+    "description": "python theme color for vscode",
+    "icon": "images/kcc.jpg",
+    "version": "0.1.5",
+    "engines": {
+        "vscode": "^1.35.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "pytheme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/pytheme-color-theme.json"
+            }
+        ]
+    }
+}
