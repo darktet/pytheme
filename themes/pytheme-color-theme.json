@@ -73,17 +73,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#62bd8f"
-			}
-		},
-		{
-			"name": "Variables",
-			"scope": [
-				"variable",
-				"string constant.other.placeholder"
-			],
-			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#75e0c7"
 			}
 		},
 		{
@@ -131,7 +121,7 @@
 			"name": "Operator, Misc",
 			"scope": [
 				"keyword.control",
-				"punctuation",
+				// "punctuation",
 				"meta.tag",
 				"punctuation.definition.tag",
 				"punctuation.separator.inheritance.php",
@@ -143,6 +133,7 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
+				"fontStyle": "italic",
 				"foreground": "#89DDFF"
 			}
 		},
@@ -208,18 +199,20 @@
 				"constant.escape"
 			],
 			"settings": {
-				"foreground": "#6cf2f7"
+				"foreground": "#a5f511"
 			}
 		},
 		{
-			"name": "Function Argument, Tag Attribute, Embedded",
+			"name": "Function Argument, Tag Attribute, Embedded, Variables",
 			"scope": [
 				"variable.parameter",
 				"keyword.other.unit",
-				"keyword.other"
+				"keyword.other",
+				"variable",
+				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#f5a40e"
 			}
 		},
 		{
@@ -234,7 +227,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#14E66D"
 			}
 		},
 		{
@@ -249,6 +242,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
+				"fontStyle": "italic",
 				"foreground": "#FFCB6B"
 			}
 		},

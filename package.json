@@ -1,23 +1,28 @@
 {
-    "name": "pytheme",
-    "displayName": "Pytheme",
-    "publisher": "pytheme",
-    "description": "python theme color for vscode",
-    "icon": "images/kcc.jpg",
-    "version": "0.1.8",
-    "engines": {
-        "vscode": "^1.35.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "pytheme",
-                "uiTheme": "vs-dark",
-                "path": "./themes/pytheme-color-theme.json"
-            }
-        ]
-    }
+	"name": "pytheme",
+	"displayName": "Pytheme",
+	"publisher": "pytheme",
+	"description": "python theme color for vscode",
+	"icon": "images/kcc.jpg",
+	"version": "0.1.7",
+	"engines": {
+		"vscode": "^1.35.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "pytheme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/pytheme-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "f44b5301-76c1-49da-80e4-72f1db0ea4a3",
+		"publisherId": "0b6408d9-cb70-4a72-bc29-bd52c87259e9",
+		"publisherDisplayName": "python theme color"
+	}
 }
